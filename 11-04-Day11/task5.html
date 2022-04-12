@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>DOM manipulation</title>
+</head>
+ 
+<body>
+    <label>Enter Value 1: </label>
+    <input type="text" id="val1" />
+    <br />
+    <br />
+    <label>Enter Value 2: </label>
+    <input type=".text" id="val2" />
+    <br />
+    <button onclick="getAdd()">Click To Add</button>
+    <p id="result"></p>
+ 
+     
+    <script type="text/javascript">
+    function getAdd() {
+         
+        // Fetch the value of input with id val1
+        const num1 = Number(document.getElementById("val1").value);
+         
+        // Fetch the value of input with id val2
+        const num2 = Number(document.getElementById("val2").value);
+        const add = num1 + num2;
+        console.log(add);
+         
+        // Displays the result in paragraph using dom
+        document.getElementById("result").innerHTML = "Addition : " + add;
+         
+        // Changes the color of paragraph tag with red
+        document.getElementById("result").style.color = "red";
+    }
+    </script>
+</body>
+ 
+</html>
