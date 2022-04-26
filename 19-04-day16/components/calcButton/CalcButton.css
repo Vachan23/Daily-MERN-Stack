@@ -1,0 +1,10 @@
+.CalcButton {
+  background-color: #fff;
+  color: #333;
+  display: grid;
+  place-content: center;
+  font-weight: 600;
+}
+.CalcButton:hover {
+  background-color: rgba(163, 163, 163);
+}

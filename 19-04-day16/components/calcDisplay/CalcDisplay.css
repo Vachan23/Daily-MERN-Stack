@@ -1,0 +1,12 @@
+.CalcDisplay {
+  background-color: #fff;
+  color: #333;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0 10px;
+}
+.CalcDisplay-input {
+  font-size: 32px;
+}
